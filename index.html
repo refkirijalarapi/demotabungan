@@ -178,7 +178,7 @@
         <p style="margin:0; opacity:0.8; font-size:0.8em">Tabungan</p>
         <h2 id="total-saldo">Rp 0</h2>
         <p style="margin:0; opacity:0.9; font-size:0.85em; display: flex; align-items: center; justify-content: center; gap: 8px;">
-            No Rek. <span id="norek">7700 7474 8888</span>
+            No Rek. <span id="norek">1234 1234 1234</span>
             <i class="fa-regular fa-copy" onclick="copyNorek()" style="cursor:
             pointer; color: var(--primary); font-size: 1.1em;" title="Salin Nomor
             Rekening"></i>
@@ -378,7 +378,7 @@
     }
     function copyNorek() {
         const icon = event.currentTarget;
-        navigator.clipboard.writeText('770074748888').then(() => {
+        navigator.clipboard.writeText('123412341234').then(() => {
             icon.classList.remove('fa-regular', 'fa-copy');
             icon.classList.add('fa-solid', 'fa-check', 'copy-success');
             icon.style.color = 'var(--secondary)';
